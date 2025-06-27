@@ -1,0 +1,1368 @@
+/* .page {
+  margin: auto;
+  margin-top: 20px;
+  width: 600px;
+  height: 25px;
+  background-color: #3498db;
+  border-radius: 100% 100% 0 0 / 200% 200% 0 0;
+} */
+.Head{
+  background-image:linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0.8)),url('./Assets/netflixBackground.jpg');
+  background-position: center center;
+  width: 100vw;
+  height: 110vh;
+  padding-top: 2rem;
+}
+.HeadSgn{
+  background-image:linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)),url('./Assets/netflixBackground.jpg');
+  background-position: center center;
+  width: 100vw;
+  height: 110vh;
+  padding-top: 2rem;
+}
+.Navbar{
+  width:80%;
+  margin: auto;
+  max-height: 5rem;
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.Logo{
+  width:20rem;
+  height:15rem;
+  /* background: blue; */
+  z-index: 10;
+}
+.Others{
+  display: flex;
+  flex-flow: row;
+}
+.Language{
+  margin-right: 2rem;
+}
+.Language select{
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+  background: transparent;
+  border:0.1rem solid white;
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:2rem;
+  width: 12rem;
+  color: white;
+}
+.SingInBtn button{
+  /* padding: 0.8rem 0.4rem 0.8rem 0.4rem; */
+  background: transparent;
+  background-color: rgb(62, 62, 218);
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:1.7rem;
+  color: white;
+  width: 8rem;
+  height: 3.5rem;
+  border: none;
+}
+.SginBox{
+  width:40rem;
+  height: 50rem;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.637);
+  padding:3rem 3rem 3rem 3rem;
+  border-radius: 1rem;
+}
+.SginInTag{
+  font-size: 3rem;
+  font-family: roboto-dark;
+  color: white;
+  width: 90%;
+  margin: auto;
+}
+.InputFields{
+  width: 90%;
+  display: flex;
+  max-height: fit-content;
+  flex-flow: column;
+  margin: auto;
+  margin-top: 2rem;
+}
+.InputFields input{
+  width: 100%;
+  height: 5rem;
+  background: rgba(128, 128, 128, 0.596);
+  border: 0.1rem solid white;
+  outline: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  color: white;
+  font-size: 1.7rem;
+  font-family: roboto-mid;
+}
+.InputFields p{
+ color: white;
+ font-family: roboto-dark;
+ min-width: 90%;
+ text-align: center;
+ font-size: 1.7rem;
+ padding: 1rem 0 1rem 0;
+}
+.SgBt{
+  background-color: rgb(62, 62, 218);
+  color: white;
+  height: 4rem;
+  color: white;
+  font-family: roboto-dark;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: .3s ease-in-out;
+}
+.SgBt:hover{
+  background-color: rgb(44, 44, 168);
+}
+.SgBt:active{
+  background-color: rgb(98, 98, 233);
+}
+.Sgcode{
+  background-color:rgba(85, 82, 82, 0.425);
+  color: white;
+  height: 4rem;
+  color: white;
+  font-family: roboto-dark;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.Forgot{
+  color: white;
+  text-align: center;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+.Remember{
+  width: 90%;
+  margin: auto;
+  color: white;
+  font-size: 1.5rem;
+  font-family: roboto-mid;
+}
+.new{
+  color: white;
+  font-size: 1.7rem;
+  width: 90%;
+  margin: auto;
+  margin-bottom:5rem;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+}
+.recap{
+  color: white;
+  font-size: 1.3rem;
+  font-family: roboto-mid;
+  width: 90%;
+  margin: auto;
+  margin-top: -3rem;
+}
+.Maincont{
+  width: 100vw;
+  height:fit-content;
+  padding-bottom: 10rem;
+  background: black;
+  border-radius: 300% 300% 0 0 / 20% 20% 0 0;
+  border-top: 5px solid blue;
+  margin-top: -6.3rem;
+  /* border-image:linear-gradient(to right , blue , rgb(73, 73, 243) , blue); */
+}
+.HeadContent{
+  max-width: 47vw;
+  margin: auto;
+  margin-top: 10rem;
+}
+.HeadContent h1{
+  color: white;
+  font-size: 7rem;
+  text-align: center;
+  font-family: roboto-dark;
+}
+.HeadContent p{
+  color: white;
+  font-size: 2rem;
+  font-family: roboto-dark;
+  text-align: center;
+}
+.HeadContent div{
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  font-family: roboto-mid;
+  text-align: center;
+}
+.EmailTab {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.EmailTab input{
+  width:65%;
+  height:5rem;
+  border-radius: 5px;
+  border:1px solid white;
+  background: rgba(75, 74, 74, 0.692);
+  padding-left: 1rem;
+  outline: none;
+  color: white;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+}
+.EmailTab button{
+  width: 25%;
+  background-color: rgb(62, 62, 218);
+  color: white;
+  font-family: roboto-mid;
+  font-size:2rem;
+  border: none;
+  /* height: 5rem; */
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.ScImg{
+  transition: .3s ease-in-out;
+}
+.ScImg:hover{
+ transform: translateY(-1rem);
+}
+.inp::placeholder{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-family: roboto-dark;
+}
+.ScroolBar{
+  width: 80vw;
+  height: fit-content;
+  overflow-x: hidden;
+  margin: auto;
+  margin-top: 5rem;
+}
+.ScrollTag{
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-family: roboto-dark;
+  font-size: 3rem;
+}
+.ScrollCont{
+  display: flex;
+  flex-flow: row;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.ReasonToJoin{
+  width: 80vw;
+  height: fit-content;
+  margin: auto;
+  margin-top: 4rem;
+}
+.ReasonTag{
+  font-family: roboto-dark;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+.ReasonCont{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.ReasonCont1,
+.ReasonCont2,
+.ReasonCont3,
+.ReasonCont4{
+  width:18vw;
+  height:45vh;
+  border-radius:0.4rem;
+  background: linear-gradient(to right ,#1B1D3B, #1E1527 , #1D172D);
+}
+.ReasonCont1Tag,
+.ReasonCont2Tag,
+.ReasonCont3Tag,
+.ReasonCont4Tag{
+  color: white;
+  font-family: roboto-dark;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  max-width: 80%;
+}
+.ReasonContent1,
+.ReasonContent2,
+.ReasonContent3,
+.ReasonContent4{
+  color: white;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  max-width: 80%;
+  font-size: 1.5rem;
+  font-family: roboto-mid;
+}
+.Frequently{
+  width:80vw;
+  margin: auto;
+  margin-top: 3rem;
+}
+.FrequentlyTag{
+  color: white;
+  font-family: roboto-dark;
+  font-size: 3rem;
+}
+.questionCont{
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  margin-top: 2rem;
+  height: fit-content;
+}
+.Question1,
+.Question2,
+.Question3,
+.Question4,
+.Question5,
+.Question6{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: white;
+  margin-top: 1rem;
+  width:100%;
+  height:fit-content;
+  background-color: rgb(85, 82, 82);
+  font-family: roboto-mid;
+  padding:1rem 0 1rem 0;
+  transition: .3s ease-in-out;
+}
+.Question1:hover,
+.Question2:hover,
+.Question3:hover,
+.Question4:hover,
+.Question5:hover,
+.Question6:hover{
+background-color: rgb(63, 60, 60);
+}
+.Question1 h2,
+.Question2 h2,
+.Question3 h2,
+.Question4 h2,
+.Question5 h2,
+.Question6 h2{
+  font-size: 2rem;
+  margin-left:1rem;
+  margin-top: 0.8rem;
+}
+.Question1 p,
+.Question2 p,
+.Question3 p,
+.Question4 p,
+.Question5 p,
+.Question6 p{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+.AnswerTab1Open,
+.AnswerTab2Open,
+.AnswerTab3Open,
+.AnswerTab4Open,
+.AnswerTab5Open,
+.AnswerTab6Open{
+  width: 100%;
+  margin-top: 0.2rem;
+  font-family: roboto-mid;
+  font-size: 2rem;
+  color: white;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background-color: rgb(63, 60, 60);
+  height: 18rem;
+  transition: .3s ease-in-out;
+}
+.AnswerTab1Close,
+.AnswerTab2Close,
+.AnswerTab3Close,
+.AnswerTab4Close,
+.AnswerTab5Close,
+.AnswerTab6Close{
+  height: 0rem;
+  padding-top: 0;
+  margin: 0;
+  font-family: roboto-mid;
+  transition: .3s ease-in-out;
+}
+.EmailTab2{
+  margin-top: 7rem;
+}
+.EmailTab2Tag{
+  color: white;
+  font-size: 2rem;
+  font-family: roboto-mid;
+  text-align: center;
+}
+.Email2Bar{
+  display: flex;
+  flex-flow: row;
+  margin-top: 3rem;
+  justify-content: center;
+}
+.Email2Bar input{
+  width: 50%;
+  height: 7vh;
+  outline: none;
+  border:0.1rem solid white;
+  background: rgba(75, 74, 74, 0.692);
+  padding-left: 1rem;
+  color: white;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+  border-radius:0.5rem;
+}
+.Email2Bar button{
+  background-color: rgb(62, 62, 218);
+  color: white;
+  font-family: roboto-mid;
+  font-size:2rem;
+  width:11vw;
+  margin-left: 1rem;
+  border-radius:0.5rem;
+  border: none;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+.Foot{
+  width: 80vw;
+  margin: auto;
+  margin-top: 7rem;
+}
+.Qs{
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.7rem;
+}
+.FootBar{
+  width: 80%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.FootBar1,
+.FootBar2,
+.FootBar3{
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: 20vh;
+  justify-content: space-between;
+}
+.FootBar1 a,
+.FootBar2 a,
+.FootBar3 a,
+.FootBar4 a{
+  font-family: roboto-mid;
+  font-size: 1.5rem;
+  color:gray;
+}
+.FootBar4{
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: 14vh;
+  justify-content: space-between;
+}
+.Language2{
+  width: 80vw;
+  padding-top: 3rem;
+  margin: auto;
+}
+.Language2 select{
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+  background: transparent;
+  border:0.1rem solid white;
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:2rem;
+  width: 12rem;
+  color: white;
+}
+.NetIn{
+  width: 80vw;
+  margin: auto;
+  color: gray;
+  font-size: 1.7rem;
+  font-family: roboto-mid;
+  margin-top: 2rem;
+}
+.Recap{
+  width: 80vw;
+  margin: auto;
+  color: gray;
+  font-size: 1.7rem;
+  font-family: roboto-mid;
+  margin-top: 2rem;
+}
+@media screen and (min-width:360px) and (max-width:405px){
+  .SginBox{
+  width:30rem;
+  height: 50rem;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.637);
+  padding:1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+}
+}
+@media screen and (min-width:360px) and (max-width:599px){
+  .Head{
+  background-image:linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0.8)),url('./Assets/netflixBackground.jpg');
+  background-position: center center;
+  width: 100vw;
+  height: 70vh;
+  padding-top: 1rem;
+}
+.Navbar{
+  width:80%;
+  margin: auto;
+  max-height: 5rem;
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.Logo{
+  width:15rem;
+  height:8.2rem;
+  /* background: blue; */
+  z-index: 10;
+}
+.LogoImg{
+  width: 80;
+  height: 80;
+}
+.Others{
+  display: flex;
+  flex-flow: row;
+}
+.Language{
+  margin-right: 1rem;
+}
+.Language select{
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+  background: transparent;
+  border:0.1rem solid white;
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:1rem;
+  width: 6rem;
+  color: white;
+}
+.SingInBtn button{
+  /* padding: 0.8rem 0.4rem 0.8rem 0.4rem; */
+  background: transparent;
+  background-color: rgb(62, 62, 218);
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:1rem;
+  color: white;
+  width: 4rem;
+  height: 2.5rem;
+  border: none;
+}
+.Maincont{
+  width: 100vw;
+  height:fit-content;
+  padding-bottom: 10rem;
+  background: black;
+  border-radius: 900% 900% 0 0 / 20% 20% 0 0;
+  border-top: 5px solid blue;
+  margin-top: -6.3rem;
+  /* border-image:linear-gradient(to right , blue , rgb(73, 73, 243) , blue); */
+}
+.HeadContent{
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 10rem;
+}
+.HeadContent h1{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: roboto-dark;
+}
+.HeadContent p{
+  color: white;
+  font-size: 1.7rem;
+  font-family: roboto-dark;
+  margin-top: 1rem;
+  text-align: center;
+}
+.HeadContent div{
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  font-family: roboto-mid;
+  text-align: center;
+}
+.EmailTab {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.EmailTab input{
+  width:75%;
+  height:4rem;
+  border-radius: 5px;
+  border:1px solid white;
+  background: rgba(75, 74, 74, 0.692);
+  padding-left: 1rem;
+  outline: none;
+  color: white;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+}
+.EmailTab button{
+  width: 35%;
+  background-color: rgb(62, 62, 218);
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.3rem;
+  border: none;
+  /* height: 5rem; */
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.ScImg{
+  transition: .3s ease-in-out;
+  width: 50vw;
+  height: 30vh;
+}
+.ScImg:hover{
+ transform: translateY(-1rem);
+}
+.inp::placeholder{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-family: roboto-dark;
+}
+.ScroolBar{
+  width: 90vw;
+  height: fit-content;
+  overflow-x: hidden;
+  margin: auto;
+  margin-top: 5rem;
+}
+.ScrollTag{
+  margin-bottom: 1rem;
+  color: white;
+  font-family: roboto-dark;
+  font-size: 2rem;
+}
+.ScrollCont{
+  display: flex;
+  flex-flow: row;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.ReasonToJoin{
+  width: 80vw;
+  height: fit-content;
+  margin: auto;
+  margin-top: 4rem;
+}
+.ReasonTag{
+  font-family: roboto-dark;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.ReasonCont{
+  display: flex;
+  flex-flow:column;
+  justify-content: space-between;
+  width: 100%;
+}
+.ReasonCont1,
+.ReasonCont2,
+.ReasonCont3,
+.ReasonCont4{
+  width:80vw;
+  height:20vh;
+  border-radius:0.4rem;
+  background: linear-gradient(to right ,#1B1D3B, #1E1527 , #1D172D);
+  margin-bottom: 1rem;
+}
+.ReasonCont1Tag,
+.ReasonCont2Tag,
+.ReasonCont3Tag,
+.ReasonCont4Tag{
+  color: white;
+  font-family: roboto-dark;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  max-width: 80%;
+}
+.ReasonContent1,
+.ReasonContent2,
+.ReasonContent3,
+.ReasonContent4{
+  color: white;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  max-width: 80%;
+  font-size: 1.5rem;
+  font-family: roboto-mid;
+}
+.Frequently{
+  width:80vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+.FrequentlyTag{
+  color: white;
+  font-family: roboto-dark;
+  font-size: 2rem;
+}
+.questionCont{
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  margin-top: 1rem;
+  height: fit-content;
+}
+.Question1,
+.Question2,
+.Question3,
+.Question4,
+.Question5,
+.Question6{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: white;
+  margin-top: 1rem;
+  width:100%;
+  height:fit-content;
+  background-color: rgb(85, 82, 82);
+  font-family: roboto-mid;
+  padding:1rem 0 1rem 0;
+  transition: .3s ease-in-out;
+}
+.Question1:hover,
+.Question2:hover,
+.Question3:hover,
+.Question4:hover,
+.Question5:hover,
+.Question6:hover{
+background-color: rgb(63, 60, 60);
+}
+.Question1 h2,
+.Question2 h2,
+.Question3 h2,
+.Question4 h2,
+.Question5 h2,
+.Question6 h2{
+  font-size: 1.7rem;
+  margin-left:1rem;
+  margin-top: 0.8rem;
+}
+.Question1 p,
+.Question2 p,
+.Question3 p,
+.Question4 p,
+.Question5 p,
+.Question6 p{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+.AnswerTab1Open,
+.AnswerTab2Open,
+.AnswerTab3Open,
+.AnswerTab4Open,
+.AnswerTab5Open,
+.AnswerTab6Open{
+  width: 100%;
+  margin-top: 0.2rem;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+  color: white;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(63, 60, 60);
+  height:fit-content;
+  transition: .3s ease-in-out;
+}
+.AnswerTab1Close,
+.AnswerTab2Close,
+.AnswerTab3Close,
+.AnswerTab4Close,
+.AnswerTab5Close,
+.AnswerTab6Close{
+  height: 0rem;
+  padding-top: 0;
+  margin: 0;
+  font-family: roboto-mid;
+}
+.EmailTab2{
+  margin-top: 6rem;
+}
+.EmailTab2Tag{
+  color: white;
+  font-size: 1.5rem;
+  font-family: roboto-mid;
+  text-align: center;
+}
+.Email2Bar{
+  display: flex;
+  flex-flow: row;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.Email2Bar input{
+  width: 60%;
+  height: 6vh;
+  outline: none;
+  border:0.1rem solid white;
+  background: rgba(75, 74, 74, 0.692);
+  padding-left: 1rem;
+  color: white;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+  border-radius:0.5rem;
+}
+.Email2Bar button{
+  background-color: rgb(62, 62, 218);
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.5rem;
+  width:28vw;
+  margin-left: 1rem;
+  border-radius:0.5rem;
+  border: none;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+.Foot{
+  width: 90vw;
+  margin: auto;
+  margin-top: 6rem;
+}
+.Qs{
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.5rem;
+}
+.FootBar{
+  width: 80%;
+  display: flex;
+  flex-flow:column;
+  margin-top: 1rem;
+}
+.FootBar1,
+.FootBar2,
+.FootBar3{
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: 15vh;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.FootBar1 a,
+.FootBar2 a,
+.FootBar3 a,
+.FootBar4 a{
+  font-family: roboto-mid;
+  font-size: 1.5rem;
+  color:gray;
+}
+.FootBar4{
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: 12vh;
+  justify-content: space-between;
+}
+.Language2{
+  width: 90vw;
+  padding-top: 2rem;
+  margin: auto;
+}
+.Language2 select{
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+  background: transparent;
+  border:0.1rem solid white;
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:1.7rem;
+  width: 10rem;
+  color: white;
+}
+.NetIn{
+  width: 90vw;
+  margin: auto;
+  color: gray;
+  font-size: 1.7rem;
+  font-family: roboto-mid;
+  margin-top: 1rem;
+}
+.Recap{
+  width: 90vw;
+  margin: auto;
+  color: gray;
+  font-size: 1.3rem;
+  font-family: roboto-mid;
+  margin-top: 2rem;
+}
+}
+@media screen and (min-width:600px) and (max-width:899px){
+  .Head{
+  background-image:linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0.8)),url('./Assets/netflixBackground.jpg');
+  background-position: center center;
+  width: 100vw;
+  height: 70vh;
+  padding-top: 1rem;
+}
+.Navbar{
+  width:80%;
+  margin: auto;
+  max-height: 5rem;
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.Logo{
+  width:15rem;
+  height:11.5rem;
+  /* background: blue; */
+  z-index: 10;
+}
+.LogoImg{
+  width: 110;
+  height: 110;
+}
+.Others{
+  display: flex;
+  flex-flow: row;
+}
+.Language{
+  margin-right: 1rem;
+}
+.Language select{
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+  background: transparent;
+  border:0.1rem solid white;
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:1.7rem;
+  width: 8rem;
+  color: white;
+}
+.SingInBtn button{
+  /* padding: 0.8rem 0.4rem 0.8rem 0.4rem; */
+  background: transparent;
+  background-color: rgb(62, 62, 218);
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:1.7rem;
+  color: white;
+  width: 6rem;
+  height: 3.2rem;
+  border: none;
+}
+.Maincont{
+  width: 100vw;
+  height:fit-content;
+  padding-bottom: 10rem;
+  background: black;
+  border-radius: 900% 900% 0 0 / 20% 20% 0 0;
+  border-top: 5px solid blue;
+  margin-top: -6.3rem;
+  /* border-image:linear-gradient(to right , blue , rgb(73, 73, 243) , blue); */
+}
+.HeadContent{
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 10rem;
+}
+.HeadContent h1{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: roboto-dark;
+}
+.HeadContent p{
+  color: white;
+  font-size: 1.7rem;
+  font-family: roboto-dark;
+  margin-top: 1rem;
+  text-align: center;
+}
+.HeadContent div{
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  font-family: roboto-mid;
+  text-align: center;
+}
+.EmailTab {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.EmailTab input{
+  width:75%;
+  height:4rem;
+  border-radius: 5px;
+  border:1px solid white;
+  background: rgba(75, 74, 74, 0.692);
+  padding-left: 1rem;
+  outline: none;
+  color: white;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+}
+.EmailTab button{
+  width: 35%;
+  background-color: rgb(62, 62, 218);
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.3rem;
+  border: none;
+  /* height: 5rem; */
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.ScImg{
+  transition: .3s ease-in-out;
+  width: 50vw;
+  height: 30vh;
+}
+.ScImg:hover{
+ transform: translateY(-1rem);
+}
+.inp::placeholder{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-family: roboto-dark;
+}
+.ScroolBar{
+  width: 90vw;
+  height: fit-content;
+  overflow-x: hidden;
+  margin: auto;
+  margin-top: 5rem;
+}
+.ScrollTag{
+  margin-bottom: 1rem;
+  color: white;
+  font-family: roboto-dark;
+  font-size: 2.5rem;
+}
+.ScrollCont{
+  display: flex;
+  flex-flow: row;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.ReasonToJoin{
+  width: 90vw;
+  height: fit-content;
+  margin: auto;
+  margin-top: 4rem;
+}
+.ReasonTag{
+  font-family: roboto-dark;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.ReasonCont{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+}
+.ReasonCont1,
+.ReasonCont2,
+.ReasonCont3,
+.ReasonCont4{
+  width:44vw;
+  height:22vh;
+  border-radius:0.4rem;
+  background: linear-gradient(to right ,#1B1D3B, #1E1527 , #1D172D);
+  margin-bottom: 1rem;
+}
+.ReasonCont1Tag,
+.ReasonCont2Tag,
+.ReasonCont3Tag,
+.ReasonCont4Tag{
+  color: white;
+  font-family: roboto-dark;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  max-width: 80%;
+}
+.ReasonContent1,
+.ReasonContent2,
+.ReasonContent3,
+.ReasonContent4{
+  color: white;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  max-width: 80%;
+  font-size: 1.5rem;
+  font-family: roboto-mid;
+}
+.Frequently{
+  width:90vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+.FrequentlyTag{
+  color: white;
+  font-family: roboto-dark;
+  font-size: 2rem;
+}
+.questionCont{
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+  margin-top: 1rem;
+  height: fit-content;
+}
+.Question1,
+.Question2,
+.Question3,
+.Question4,
+.Question5,
+.Question6{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: white;
+  margin-top: 1rem;
+  width:100%;
+  height:fit-content;
+  background-color: rgb(85, 82, 82);
+  font-family: roboto-mid;
+  padding:1rem 0 1rem 0;
+  transition: .3s ease-in-out;
+}
+.Question1:hover,
+.Question2:hover,
+.Question3:hover,
+.Question4:hover,
+.Question5:hover,
+.Question6:hover{
+background-color: rgb(63, 60, 60);
+}
+.Question1 h2,
+.Question2 h2,
+.Question3 h2,
+.Question4 h2,
+.Question5 h2,
+.Question6 h2{
+  font-size: 1.7rem;
+  margin-left:1rem;
+  margin-top: 0.8rem;
+}
+.Question1 p,
+.Question2 p,
+.Question3 p,
+.Question4 p,
+.Question5 p,
+.Question6 p{
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+.AnswerTab1Open,
+.AnswerTab2Open,
+.AnswerTab3Open,
+.AnswerTab4Open,
+.AnswerTab5Open,
+.AnswerTab6Open{
+  width: 100%;
+  margin-top: 0.2rem;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+  color: white;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(63, 60, 60);
+  height:fit-content;
+  transition: .3s ease-in-out;
+}
+.AnswerTab1Close,
+.AnswerTab2Close,
+.AnswerTab3Close,
+.AnswerTab4Close,
+.AnswerTab5Close,
+.AnswerTab6Close{
+  height: 0rem;
+  padding-top: 0;
+  margin: 0;
+  font-family: roboto-mid;
+}
+.EmailTab2{
+  margin-top: 6rem;
+}
+.EmailTab2Tag{
+  color: white;
+  font-size: 1.5rem;
+  font-family: roboto-mid;
+  text-align: center;
+}
+.Email2Bar{
+  display: flex;
+  flex-flow: row;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.Email2Bar input{
+  width: 60%;
+  height: 6vh;
+  outline: none;
+  border:0.1rem solid white;
+  background: rgba(75, 74, 74, 0.692);
+  padding-left: 1rem;
+  color: white;
+  font-family: roboto-mid;
+  font-size: 1.7rem;
+  border-radius:0.5rem;
+}
+.Email2Bar button{
+  background-color: rgb(62, 62, 218);
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.5rem;
+  width:28vw;
+  margin-left: 1rem;
+  border-radius:0.5rem;
+  border: none;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+.Foot{
+  width: 90vw;
+  margin: auto;
+  margin-top: 6rem;
+}
+.Qs{
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.5rem;
+}
+.FootBar{
+  width: 90%;
+  display: flex;
+  flex-flow:row;
+  margin-top: 1rem;
+}
+.FootBar1,
+.FootBar2,
+.FootBar3{
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: 15vh;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.FootBar1 a,
+.FootBar2 a,
+.FootBar3 a,
+.FootBar4 a{
+  font-family: roboto-mid;
+  font-size: 1.5rem;
+  color:gray;
+}
+.FootBar4{
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: 10.9vh;
+  justify-content: space-between;
+}
+.Language2{
+  width: 90vw;
+  padding-top: 2rem;
+  margin: auto;
+}
+.Language2 select{
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+  background: transparent;
+  border:0.1rem solid white;
+  border-radius: 0.4rem;
+  font-family: roboto-dark;
+  font-size:1.7rem;
+  width: 10rem;
+  color: white;
+}
+.NetIn{
+  width: 90vw;
+  margin: auto;
+  color: gray;
+  font-size: 1.7rem;
+  font-family: roboto-mid;
+  margin-top: 1rem;
+}
+.Recap{
+  width: 90vw;
+  margin: auto;
+  color: gray;
+  font-size: 1.3rem;
+  font-family: roboto-mid;
+  margin-top: 2rem;
+}
+}
+@media screen and (min-width:900px) and (max-width:1140px){
+  .HeadContent h1{
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  font-family: roboto-dark;
+  }
+  .EmailTab button{
+  width: 27%;
+  background-color: rgb(62, 62, 218);
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.7rem;
+  border: none;
+  /* height: 5rem; */
+  padding: 1rem 0.5rem 1rem 0.5rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.Email2Bar button{
+  background-color: rgb(62, 62, 218);
+  color: white;
+  font-family: roboto-mid;
+  font-size:1.7rem;
+  width:13vw;
+  margin-left: 1rem;
+  border-radius:0.5rem;
+  border: none;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+}
